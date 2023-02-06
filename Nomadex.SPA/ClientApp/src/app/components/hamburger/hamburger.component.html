@@ -1,0 +1,14 @@
+<div class="drawer">
+  <input
+    [(ngModel)]="hamburgerService.isHamburgerVisible"
+    id="hamburger"
+    type="checkbox"
+    class="drawer-toggle" />
+  <div class="drawer-content">
+    <ng-content select="[content]"></ng-content>
+  </div>
+  <div class="drawer-side">
+    <label for="hamburger" class="drawer-overlay"></label>
+    <ng-content select="[side]"></ng-content>
+  </div>
+</div>
