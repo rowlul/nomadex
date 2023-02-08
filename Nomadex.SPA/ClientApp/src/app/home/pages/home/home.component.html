@@ -1,0 +1,53 @@
+<div class="hero">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content flex-col lg:flex-row lg:space-x-20 py-10">
+    <div class="text-center flex-shrink-0 lg:text-left">
+      <h1 class="text-6xl font-bold">Leading hotel chain in Europe</h1>
+      <p class="py-6">Experience your greatest dreams at our premises</p>
+    </div>
+    <div
+      class="card card-compact flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+      <div class="card-body">
+        <h1 class="card-title justify-center uppercase font-extrabold">
+          Book now!
+        </h1>
+        <div class="form-control">
+          <label class="label">
+            <span class="label-text">Destination</span>
+          </label>
+          <select class="select select-bordered">
+            <option disabled selected>Select one of our locations</option>
+            <option>London</option>
+            <option>Lisbon</option>
+            <option>Prague</option>
+            <option>Paris</option>
+            <option>Riga</option>
+          </select>
+        </div>
+        <div class="flex justify-between">
+          <div class="form-control">
+            <label class="label">
+              <span class="label-text">Rooms</span>
+            </label>
+            <app-counter [min]="1" [max]="99"></app-counter>
+          </div>
+          <div class="form-control">
+            <label class="label">
+              <span class="label-text">Adults</span>
+            </label>
+            <app-counter [min]="1" [max]="99"></app-counter>
+          </div>
+          <div class="form-control">
+            <label class="label">
+              <span class="label-text">Children</span>
+            </label>
+            <app-counter [min]="0"></app-counter>
+          </div>
+        </div>
+        <div class="form-control mt-6">
+          <button class="btn btn-accent">Search</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

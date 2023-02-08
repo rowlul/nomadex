@@ -1,0 +1,18 @@
+<div class="navbar bg-neutral w-full md:px-6">
+  <div class="navbar-start w-full">
+    <button
+      class="btn btn-ghost btn-square drawer-button md:hidden"
+      (click)="hamburgerService.toggleHamburgerVisibility()">
+      <ng-icon name="heroBars3Solid" size="24"></ng-icon>
+    </button>
+    <a routerLink="/" class="flex-shrink-0">
+      <div class="btn btn-ghost normal-case text-xl">
+        <app-logo></app-logo>
+      </div>
+    </a>
+    <ng-content select="[left]"></ng-content>
+  </div>
+  <div class="navbar-end">
+    <ng-content select="[right]"></ng-content>
+  </div>
+</div>
