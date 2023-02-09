@@ -15,6 +15,10 @@ export class HeaderComponent {
 
   routeToRoot() {
     this.router.navigateByUrl('');
+
+    if (this.hamburgerService.isHamburgerVisible) {
+      this.hamburgerService.toggleHamburgerVisibility();
+    }
   }
 
   toggleMenu() {
