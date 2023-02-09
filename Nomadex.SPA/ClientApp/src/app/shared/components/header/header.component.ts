@@ -9,7 +9,15 @@ import { HamburgerService } from '../../services/hamburger.service';
 })
 export class HeaderComponent {
   constructor(
-    public hamburgerService: HamburgerService,
-    public router: Router
+    private router: Router,
+    private hamburgerService: HamburgerService
   ) {}
+
+  routeToRoot() {
+    this.router.navigateByUrl('');
+  }
+
+  toggleMenu() {
+    this.hamburgerService.toggleHamburgerVisibility();
+  }
 }

@@ -7,5 +7,11 @@ import { HamburgerService } from '../../services/hamburger.service';
   styleUrls: ['./hamburger.component.css'],
 })
 export class HamburgerComponent {
-  constructor(public hamburgerService: HamburgerService) {}
+  isHamburgerVisible = false;
+
+  constructor(private hamburgerService: HamburgerService) {
+    this.hamburgerService.hamburgerVisibilityChange.subscribe(value => {
+      this.isHamburgerVisible = value;
+    });
+  }
 }

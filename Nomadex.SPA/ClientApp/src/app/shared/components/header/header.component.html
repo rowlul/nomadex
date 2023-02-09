@@ -2,10 +2,10 @@
   <div class="navbar-start w-full">
     <button
       class="btn btn-ghost btn-square drawer-button md:hidden"
-      (click)="hamburgerService.toggleHamburgerVisibility()">
+      (click)="toggleMenu()">
       <ng-icon name="heroBars3Solid" size="24"></ng-icon>
     </button>
-    <a class="btn btn-ghost" (click)="router.navigateByUrl('/')">
+    <a class="btn btn-ghost" (click)="routeToRoot()">
       <app-logo></app-logo>
     </a>
     <ng-content select="[left]"></ng-content>
