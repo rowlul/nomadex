@@ -5,10 +5,8 @@
       (click)="hamburgerService.toggleHamburgerVisibility()">
       <ng-icon name="heroBars3Solid" size="24"></ng-icon>
     </button>
-    <a routerLink="/" class="flex-shrink-0">
-      <div class="btn btn-ghost normal-case text-xl">
-        <app-logo></app-logo>
-      </div>
+    <a class="btn btn-ghost">
+      <app-logo></app-logo>
     </a>
     <ng-content select="[left]"></ng-content>
   </div>

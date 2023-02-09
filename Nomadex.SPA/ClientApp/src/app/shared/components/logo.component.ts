@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
     `,
   ],
   template: `
-    <div class="font-['Sansita_Swashed']">
+    <div class="normal-case text-xl font-['Sansita_Swashed']">
       <span class="text-primary">Nomad</span>
       <span class="text-neutral-content">ex</span>
     </div>
