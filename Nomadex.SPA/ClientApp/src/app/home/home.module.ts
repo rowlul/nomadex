@@ -13,6 +13,12 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { HomeComponent as HomePageComponent } from './pages/home/home.component';
+import { HotelsComponent } from './pages/hotels/hotels.component';
+import { RoomsComponent } from './pages/rooms/rooms.component';
+import { OffersComponent } from './pages/offers/offers.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ReservationsComponent } from './pages/reservations/reservations.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +26,12 @@ import { HomeComponent as HomePageComponent } from './pages/home/home.component'
     HamburgerComponent,
     HomeComponent,
     HomePageComponent,
+    HotelsComponent,
+    RoomsComponent,
+    OffersComponent,
+    AboutComponent,
+    ReservationsComponent,
+    ContactComponent,
   ],
   imports: [
     CommonModule,
