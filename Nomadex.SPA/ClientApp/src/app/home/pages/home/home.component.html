@@ -44,6 +44,28 @@
             <app-counter [min]="0"></app-counter>
           </div>
         </div>
+        <div class="flex space-x-2">
+          <div class="form-control w-full">
+            <label class="label">
+              <span class="label-text">Check in</span>
+            </label>
+            <input
+              class="input input-sm input-bordered"
+              type="date"
+              [value]="formattedCurrentDate"
+              [min]="formattedCurrentDate" />
+          </div>
+          <div class="form-control w-full">
+            <label class="label">
+              <span class="label-text">Check out</span>
+            </label>
+            <input
+              class="input input-sm input-bordered"
+              type="date"
+              [value]="formattedCurrentDate"
+              [min]="formattedCurrentDate" />
+          </div>
+        </div>
         <div class="form-control mt-6">
           <button class="btn btn-accent">Search</button>
         </div>
