@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { HamburgerService } from '../../services/hamburger.service';
 
 @Component({
@@ -7,5 +8,8 @@ import { HamburgerService } from '../../services/hamburger.service';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent {
-  constructor(public hamburgerService: HamburgerService) {}
+  constructor(
+    public hamburgerService: HamburgerService,
+    public router: Router
+  ) {}
 }
