@@ -11,18 +11,22 @@
     <ul class="hidden md:flex menu menu-horizontal menu-compact font-bold px-1">
       <li>
         <a routerLink="/reservations">
-          <div class="hidden lg:inline">
-            <ng-icon name="heroClockSolid" class="hidden lg:inline"></ng-icon>
+          <div class="flex space-x-2">
+            <ng-icon
+              class="hidden lg:inline"
+              name="heroClockSolid"
+              size="18"></ng-icon>
+            <span>Reservations</span>
           </div>
-          Reservations
         </a>
       </li>
       <li>
         <a routerLink="/contact">
-          <div class="hidden lg:inline">
-            <ng-icon name="heroPhoneSolid"></ng-icon>
-          </div>
-          Contact
+          <ng-icon
+            class="hidden lg:inline"
+            name="heroPhoneSolid"
+            size="18"></ng-icon>
+          <span>Contact</span>
         </a>
       </li>
     </ul>
