@@ -20,6 +20,4 @@ Tribute to JetBrains for providing their incredible free educational license!
 
 <div style="display: flex; justify-items:center">
 <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" alt="JetBrains Logo (Main) logo." style="height:250px">
-<img src="https://resources.jetbrains.com/storage/products/company/brand/logos/Rider_icon.png" alt="Rider logo." style="height:120px;margin-right:30px">
-<img src="https://resources.jetbrains.com/storage/products/company/brand/logos/DataGrip_icon.png" alt="DataGrip logo." style="height:120px">
 </div>
