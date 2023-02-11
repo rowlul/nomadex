@@ -12,7 +12,7 @@ Hotel management system monorepo. Contains the minimal API, Angular SPA client a
 
 ## License
 
-Nomadex is licensed under the MIT License. Please consult the attached LICENSE.md file for further details.
+Nomadex is licensed under the MIT License. Please consult the attached LICENSE file for further details.
 
 ## Acknowledgments
 
