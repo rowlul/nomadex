@@ -31,6 +31,7 @@ import { ToggleHamburgerDirective } from './directives/toggle-hamburger.directiv
     HeaderComponent,
     HamburgerComponent,
     CounterComponent,
+    ToggleHamburgerDirective,
   ],
 })
 export class SharedModule {}
