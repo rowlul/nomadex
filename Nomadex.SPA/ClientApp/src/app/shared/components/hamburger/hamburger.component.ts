@@ -14,4 +14,8 @@ export class HamburgerComponent {
       this.isHamburgerVisible = value;
     });
   }
+
+  toggleMenu() {
+    this.hamburgerService.toggleHamburgerVisibility();
+  }
 }
