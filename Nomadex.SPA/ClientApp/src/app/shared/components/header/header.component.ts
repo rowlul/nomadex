@@ -20,8 +20,4 @@ export class HeaderComponent {
       this.hamburgerService.toggleHamburgerVisibility();
     }
   }
-
-  toggleMenu() {
-    this.hamburgerService.toggleHamburgerVisibility();
-  }
 }
