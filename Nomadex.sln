@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nomadex.Api", "Nomadex.Api\Nomadex.Api.csproj", "{4BE46C63-FC97-4655-A813-98377375DEBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nomadex.Spa", "Nomadex.Spa\Nomadex.Spa.csproj", "{E68823E6-A7F8-4D58-BF63-A7A446BFBAE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BE46C63-FC97-4655-A813-98377375DEBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE46C63-FC97-4655-A813-98377375DEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE46C63-FC97-4655-A813-98377375DEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE46C63-FC97-4655-A813-98377375DEBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E68823E6-A7F8-4D58-BF63-A7A446BFBAE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E68823E6-A7F8-4D58-BF63-A7A446BFBAE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E68823E6-A7F8-4D58-BF63-A7A446BFBAE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E68823E6-A7F8-4D58-BF63-A7A446BFBAE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
