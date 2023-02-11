@@ -11,6 +11,7 @@ import { CounterComponent } from './components/counter/counter.component';
 import { HamburgerComponent } from './components/hamburger/hamburger.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LogoComponent } from './components/logo.component';
+import { ToggleHamburgerDirective } from './directives/toggle-hamburger.directive';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { LogoComponent } from './components/logo.component';
     HeaderComponent,
     HamburgerComponent,
     CounterComponent,
+    ToggleHamburgerDirective,
   ],
   imports: [
     CommonModule,
